@@ -1,4 +1,4 @@
-// const apiKey = "AIzaSyCq4cAWA_6ekapiO2DL-U2JZWZ0E68mxHc";
+// 
 
 /*
  * Install the Generative AI SDK
@@ -12,7 +12,7 @@ const {
     HarmBlockThreshold,
   } = require("@google/generative-ai");
   
-  const apiKey = process.env.AIzaSyCq4cAWA_6ekapiO2DL-U2JZWZ0E68mxHc;
+  const apiKey = process.env.[apiKey_enter];
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
@@ -40,5 +40,5 @@ const {
     console.log(result.response.text());
   }
   
- export default run;
+ export default run ();
 
